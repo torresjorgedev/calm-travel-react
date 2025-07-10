@@ -1,15 +1,7 @@
-import { Navbar } from "./components/navbar";
-import "./styles/navbar.css"; 
+import { MyRoutes } from "./router";
 
 function App() {
-  return (
-    <>
-      <Navbar />
-      <main>
-        <h1> Bienvenido a Calm Travel </h1>
-      </main>
-    </>
-  );
+  return <MyRoutes />;
 }
 
 export default App;

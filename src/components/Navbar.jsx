@@ -3,7 +3,7 @@ export function Navbar() {
     <nav className="navbar">
       <h2>Calm Travel</h2>
       <ul>
-        <li><a href="#">Servicios</a></li>
+        <li><a>Servicios</a></li>
         <li><a href="#">Destinos recomendados</a></li>
         <li><a href="#">Contacto</a></li>
       </ul>
