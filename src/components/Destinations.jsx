@@ -1,3 +1,10 @@
+import { CardsContainer } from "./DestinationsCardsContainer";
+
 export function Destinations() {
-  return <div>Destinations</div>;
+  return (
+    <section>
+      <h2>Destinos Recomendados</h2>
+      <CardsContainer />
+    </section>
+  );
 }

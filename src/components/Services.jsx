@@ -1,3 +1,10 @@
+import { ServicesCardsContainer } from "./ServicesCardsContainers";
+
 export function Services() {
-  return <div>Services</div>;
+  return (
+    <section>
+      <h2>Servicios disponibles</h2>
+      <ServicesCardsContainer />
+    </section>
+  );
 }
