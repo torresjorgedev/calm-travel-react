@@ -1,15 +1,16 @@
 import { Routes, Route, Outlet } from "react-router-dom";
-import { Home } from "./components/home";
-import { Services } from "./components/Services";
-import { Destinations } from "./components/Destinations";
-import { Contact } from "./components/Contact";
-import { Navbar } from "./components/navbar";
-import { Footer } from "./components/footer";
+ /*import { Navbar } from "./components/layout/Navbar";*/
+import { Header } from "./components/layout/Header";
+import { Footer } from "./components/layout/Footer";
+import { Home } from "./components/home/Home";
+import { Services } from "./components/services/Services";
+import { Destinations } from "./components/destinations/Destinations";
+import { Contact } from "./components/contact/Contact";
 
 function Layout() {
   return (
     <>
-      <Navbar />
+      <Header />
       <Outlet />
       <Footer />
     </>

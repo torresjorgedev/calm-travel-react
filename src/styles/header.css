@@ -1,0 +1,48 @@
+.site-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #4baaa3; /* Verde oceano */
+  padding: 20px;
+  color: white;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.site-header h1 {
+  font-family: "Playwrite AU SA", sans-serif;
+  font-size: 55px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.site-header .tagline {
+  font-size: 1.2rem;
+  margin: 10px 0 20px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+}
+
+.navbar-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-list li {
+  font-family: "Open Sans", sans-serif;
+}
+
+.navbar-list li a {
+  text-decoration: none;
+  color: #014e47;
+  font-weight: 600;
+}
+
+.navbar-list li i {
+  margin-right: 8px;
+  font-size: 1.1em;
+}
