@@ -5,16 +5,18 @@ header h1 {
   font-weight: 600;
 }
 
+/*
 header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #4baaa3; /* Verde océano */
+  background-color: #4baaa3; // Verde océano //
   padding: 20px;
   color: white;
   text-align: center;
   border-radius: 15px;
 }
+*/
 
 /*
 .hero {

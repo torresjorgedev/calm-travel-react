@@ -24,11 +24,7 @@ export function MyRoutes() {
         <Route
           index
           element={
-            <Home
-              titulo="Calm Travel"
-              subtitulo="Bienvenido a tu próximo destino"
-              imagen="https://via.placeholder.com/600x300"
-            />
+            <Home/>
           }
         />
         <Route path="services" element={<Services />} />

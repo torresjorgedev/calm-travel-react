@@ -1,10 +1,10 @@
 import { ServicesCardsContainer } from "./ServicesCardsContainers";
+import "../../styles/Services.css";
 
 export function Services() {
   return (
-    <section>
-      <h2>Servicios disponibles</h2>
-      <ServicesCardsContainer />
+    <section id="servicios">
+            <ServicesCardsContainer />
     </section>
   );
 }

@@ -1,0 +1,44 @@
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columnas para que se diferencie de destinos */
+  gap: 20px;
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.card {
+  background-color: rgba(180, 255, 233, 0.8); /* Menta claro */
+  border-radius: 12px;
+  box-shadow: 0 25px 5px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 90%;
+  height: 200px; /* ⚠️ AJUSTADO: el original decía "800%" 😅 */
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  margin-bottom: 8px;
+  color: #007f73; /* Variante oscura de verde océano */
+  font-size: 1.2rem;
+}
+
+.card p {
+  font-size: 0.95rem;
+  color: #003d37; /* Variante más oscura */
+}
