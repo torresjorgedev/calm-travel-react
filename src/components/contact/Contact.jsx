@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "../../styles/contact.css";
 
 export function Contact() {
   const [nombre, setNombre] = useState("");
@@ -20,7 +21,7 @@ export function Contact() {
   }
 
   return (
-    <section>
+    <section className="contact-section">
       <h2>Contacto</h2>
       <form onSubmit={handleSubmit}>
         <div>
