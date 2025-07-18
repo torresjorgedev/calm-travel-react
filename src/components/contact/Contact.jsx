@@ -11,7 +11,7 @@ export function Contact() {
     console.log("Nombre:", nombre);
     console.log("Email:", email);
     console.log("Mensaje:", mensaje);
-    alert("Mensaje enviado correctamente");
+    alert("Su consulta será respondida a la brevedad. Gracias por contactarnos.");
   }
 
   function handleReset() {

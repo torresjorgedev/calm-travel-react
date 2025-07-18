@@ -1,12 +1,12 @@
-# React + Vite
+Intentando transmitir la calma de unas buenas vacaciones o el buen momento de planificar un viaje, Calm Travel es mi proyecto ficticio de turismo para plasmar mis aprendizajes en la etapa de Frontend de la Diplomatura de Desarrollo Web Fullstack de la UTN BA. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Inspirado en páginas de turismo local, en esta etapa final se realizó la mudanza de proyecto de maquetación realizado anteriormente en HTML y CSS puro con elementos de Bootstrap. Está maquetado en React buscando respetar una estructura limpia, funcional y estética. Contiene navegacion mediante React Router, el uso de props y map para renderizar contenido de una manera dinámica y componentes reutilizables asi como recursos organizados.
 
-Currently, two official plugins are available:
+Para correrlo:
+Descargar el repo, instalar dependencias y correr Vite.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Muchas Gracias.
 
-## Expanding the ESLint configuration
+Torres Jorge. 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+torresjorgedev@gmail.com
